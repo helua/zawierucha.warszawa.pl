@@ -1,0 +1,90 @@
+/*@font-face{
+    font-family: ZnikomitNo25;
+    src: url("ZnikomitNo25.otf") format("opentype");
+}
+
+*/
+
+h1 {
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	font-size: 45px;
+	font-weight: 700;
+	color: $color-white;
+	text-transform: uppercase;
+	letter-spacing: 7px;
+	padding-top: 45px; }
+  
+  h2 {
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	font-size: 35px;
+	font-weight: 100;
+	letter-spacing: 5px;
+	color: $color-white;
+	margin-right: 20px;
+	margin-top: -18px; }
+  
+  h3 {
+	font-family: 'Poiret One', cursive;
+	font-weight: 900;
+	font-size: 29px;
+	text-align: left;
+	color: black; }
+  
+  p {
+	width: 600px;
+	font-family: 'Poiret One', cursive;
+	font-size: 23px;
+	letter-spacing: 3px;
+	font-weight: 100;
+	color: $color-white;
+	text-align: justify;
+	margin-right: auto;
+	margin-left: auto; }
+
+.history ul {
+		font-family: 'Poiret One', cursive;
+		font-weight: 300;
+		font-size: 20px;
+		text-align: left;
+		color: $color-white;
+		list-style: circle; 
+
+		&__ ul > li {
+		  font-size: 19px; }
+		}
+
+			
+	  
+.info {
+		font-family: 'Poiret One', cursive;
+		font-weight: 300;
+		font-size: 25px; 
+		color: $color-dark;}
+		
+//to dotyczy chyba ikonek fb/email
+
+@font-face {
+    font-family: 'icon-facebook';
+    src: url('icon-facebook.eot');
+    src: url('icon-facebook.eot') format('embedded-opentype'),
+         url('icon-facebook.woff') format('woff'),
+         url('icon-facebook.ttf') format('truetype'),
+         url('icon-facebook.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    
+  }
+   
+   
+  .demo-icon
+  {
+    font-family: "icon-facebook";
+    font-style: normal;
+    font-weight: normal;
+    //speak: none;
+   
+    display: inline-block;
+
+  }

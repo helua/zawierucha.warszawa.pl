@@ -1,0 +1,25 @@
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62,5%; }
+
+body {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-bottom: 100px;
+  margin-right: auto;
+  background-color: $color-dark;
+  /*zmiany ??
+
+    box-sizing: border-box;
+    padding: 3rem;*/ }
+
+::selection {
+  background-color: $color-red;
+  color: $color-white; }
