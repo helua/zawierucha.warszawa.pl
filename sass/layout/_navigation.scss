@@ -1,0 +1,38 @@
+
+nav {
+    text-align: center;
+    background: $color-blue;
+    font-family: 'Poiret One', bold; }
+  
+  .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    font-size: 23px;
+    min-height: 40px;
+    line-height: 200%; 
+
+    & > li {
+        display: inline-block;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-right: 1px dashed $color-dark;
+        z-index: 2;
+        position: relative; 
+    }
+
+    & > li:first-child {
+        border-left: 1px dashed $color-dark; }
+
+    & a {
+        color: $color-white;
+        text-decoration: none;
+        transition: all 0.5s; 
+        
+        &:hover {
+            color: $color-orange;
+            text-decoration: underline;
+            font-size: 25px; }}
+    
+    }
+

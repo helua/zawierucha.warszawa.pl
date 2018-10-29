@@ -1,0 +1,33 @@
+
+.history {
+	background: $color-dark;
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px; 
+	
+	& ul{
+		padding: 20px;
+	
+		& > li {
+			margin-bottom: 5px; 
+			list-style: none;}
+		}}
+	  
+  
+  .contact {
+	background: $color-dark;
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px; }
+  
+  .info {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	color: $color-white;
+	background: $color-blue; }
+  
