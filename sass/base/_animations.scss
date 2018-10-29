@@ -1,85 +1,95 @@
-.animation {
-	position: relative;
-	height: 960px; }
-  
-  .kot {
-	height: 250px;
-	top: 500px;
+.animation{
+	position: absolute;
+	height: 960px;
+	
+}
+
+.kot{	
+	height:70%;
+	top: 400px;
+	left: 0;
 	position: absolute;
 	left: -100%;
+
 	z-index: 2;
+	
 	animation: skok 6s 2;
 	-moz-animation: skok 6s 2;
-	-moz-animation-direction: normal;
+	-moz-animation-direction: normal;	
 	-webkit-animation: skok 6s 2;
 	-webkit-animation-direction: normal;
 	-o-animation: skok 6s 2;
 	-o-animation-direction: normal;
 	animation-delay: 10s;
-	-webkit-animation-delay: 10s; }
-  
-  @keyframes skok {
-	from {
-	  left: -100%; }
-	/*off-screen left (adjust for image width)*/
-	to {
-	  left: 100%; }
-	/*off-screen right*/ }
-  
-  @-moz-keyframes mymove /* Firefox */ {
-	from {
-	  left: -100%; }
-	to {
-	  left: 100%; } }
-  
-  @-webkit-keyframes skok /* Safari, Chrome, and Webkit Opera */ {
-	from {
-	  left: -100%; }
-	to {
-	  left: 100%; } }
-  
-  @-o-keyframes skok /* Presto Opera */ {
-	from {
-	  left: -100%; }
-	to {
-	  left: 100%; } }
-  
-  .dysk {
+	-webkit-animation-delay: 10s;
+}
+
+
+@keyframes skok
+	{
+	from {left: -1%}	/*off-screen left (adjust for image width)*/
+	to {left: 50%}		/*off-screen right*/
+	}
+   
+@-moz-keyframes mymove /* Firefox */
+	{
+	from {left:-100%;}
+	to {left: 100%;}
+	}
+
+@-webkit-keyframes skok /* Safari, Chrome, and Webkit Opera */
+	{
+	from {left:-100%;}
+	to {left:100%;}
+	}
+
+@-o-keyframes skok /* Presto Opera */
+	{
+	from {left: -100%;}
+	to {left: 100%;}
+	}
+
+
+
+
+
+	
+.dysk{	
 	position: absolute;
 	left: 100%;
 	padding-top: 70px;
 	animation: lot 3s;
+
 	-moz-animation: lot 3s infinite;
-	-moz-animation-direction: normal;
+	-moz-animation-direction: normal;	
 	-webkit-animation: lot 3s infinite;
 	-webkit-animation-direction: normal;
 	-o-animation: lot 3s infinite;
 	-o-animation-direction: normal;
 	animation-delay: 0s;
-	-webkit-animation-delay: 0s; }
-  
-  @keyframes lot {
-	from {
-	  left: 100%; }
-	/*off-screen left (adjust for image width)*/
-	to {
-	  left: 51%; }
-	/*off-screen right*/ }
-  
-  @-moz-keyframes lot /* Firefox */ {
-	from {
-	  left: -100%; }
-	to {
-	  left: 100%; } }
-  
-  @-webkit-keyframes lot /* Safari, Chrome, and Webkit Opera */ {
-	from {
-	  left: -100%; }
-	to {
-	  left: 80%; } }
-  
-  @-o-keyframes lot /* Presto Opera */ {
-	from {
-	  left: -100%; }
-	to {
-	  left: 100%; } }
+	-webkit-animation-delay: 0s;
+}
+
+@keyframes lot
+	{
+	from {left: 100%}	/*off-screen left (adjust for image width)*/
+	to {left: 51%}		/*off-screen right*/
+	}
+   
+@-moz-keyframes lot /* Firefox */
+	{
+	from {left:-100%;}
+	to {left: 100%;}
+	}
+
+@-webkit-keyframes lot /* Safari, Chrome, and Webkit Opera */
+	{
+	from {left:-100%;}
+	to {left: 80%;}
+	}
+
+@-o-keyframes lot /* Presto Opera */
+	{
+	from {left:-100%;}
+	to {left: 100%;}
+	}
