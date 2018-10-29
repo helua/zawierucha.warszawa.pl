@@ -1,16 +1,14 @@
-
-
-.slideshow {
+.slideshow{	
 	width: 960px;
 	height: 729px;
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 20px; 
-
+	margin-top: 20px;
+	
 }
-  
-  .slideshow img {
+
+.slideshow-images img{
 	position: absolute;
 	top: -88px;
 	left: 0;
@@ -20,12 +18,17 @@
 	border-radius: 5px;
 	transition: all .2s ease-out; 
 
-	&__:hover {
-	  transform: scale(1.2);
-	  overflow: hidden; }
 
-	&__:first-child {
-		z-index: 1; }
+	
+	&__:hover{
+		transform: scale(1.2);
+		overflow: hidden; 	
+		
 	}
-  
-  
+}
+
+
+
+.slideshow img:first-child{
+	z-index: 1;
+}
