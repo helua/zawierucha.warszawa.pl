@@ -7,3 +7,11 @@
 
 .margin-bottom-huge {
   margin-bottom: 130px; }
+
+.u-center-text{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

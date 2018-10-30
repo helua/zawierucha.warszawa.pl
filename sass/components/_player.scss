@@ -1,16 +1,44 @@
-
-
-
 .player {
     vertical-align: middle;
+    display: inline-block;
+
     border: 0.5px dotted none;
     border-radius: 20px;
-    background-color: #019A9A; }
-    .player__name {
-      display: inline-block;
-      width: 49%; }
-    .player__image {
-      display: inline-block;
-      width: 49%; }
-      .player__image img {
-        width: 110px; }
+
+    padding: 23px;
+    
+    background-color: $color-blue-dark;
+
+    &__shape{
+      width: 100%;
+      height: auto;
+      float: left;
+      
+      -webkit-clip-path: circle(50% at 50% 50%);
+      clip-path: circle(50% at 50% 50%);
+      position: relative;
+  }
+
+    &__image {
+      
+      width: 100%;
+      margin: 0 auto; 
+      display: block;
+      
+      & img {
+        width: 100%;
+        margin: 0 auto; }
+    }
+    
+    &__name {
+      margin: 0 auto;
+      width: 100%;
+      display: block;
+      text-align: right;
+      display: block;
+    }
+    
+    }
+
+  
+     
