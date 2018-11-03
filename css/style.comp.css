@@ -106,7 +106,6 @@ html {
 body {
   margin-top: 50px;
   margin-left: auto;
-  margin-bottom: 100px;
   margin-right: auto;
   background-color: #002527;
   /*zmiany ??
@@ -273,6 +272,22 @@ p {
 
 .player__image img {
   width: 110px; }
+
+.info {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  color: #f8fde5;
+  background: #019A9A; }
+  .info a {
+    color: #f8fde5;
+    text-decoration: underline; }
+    .info a:hover {
+      color: #F6A819;
+      text-decoration: underline;
+      font-size: 25px; }
 
 .container {
   margin: auto;
