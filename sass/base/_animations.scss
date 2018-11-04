@@ -10,6 +10,7 @@
 	z-index: 2;
 	animation: skok 6s 2;
 	-moz-animation: skok 6s 2;
+	animation-direction: normal;
 	-moz-animation-direction: normal;
 	-webkit-animation: skok 6s 2;
 	-webkit-animation-direction: normal;
@@ -26,7 +27,7 @@
 	  left: 100%; }
 	/*off-screen right*/ }
   
-  @-moz-keyframes mymove /* Firefox */ {
+  @-moz-keyframes skok /* Firefox */ {
 	from {
 	  left: -100%; }
 	to {
@@ -50,6 +51,7 @@
 	padding-top: 70px;
 	animation: lot 3s;
 	-moz-animation: lot 3s infinite;
+	animation-direction: normal;
 	-moz-animation-direction: normal;
 	-webkit-animation: lot 3s infinite;
 	-webkit-animation-direction: normal;
